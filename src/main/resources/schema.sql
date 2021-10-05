@@ -1,0 +1,28 @@
+CREATE TABLE positions (
+  id INT AUTO_INCREMENT  PRIMARY KEY,
+  x DOUBLE NOT NULL,
+  y DOUBLE NOT NULL
+);
+
+CREATE TABLE satellites (
+  id INT AUTO_INCREMENT  PRIMARY KEY,
+  name VARCHAR NOT NULL,
+  position_id INT NOT NULL
+);
+
+CREATE TABLE messages (
+  id INT AUTO_INCREMENT  PRIMARY KEY,
+  message VARCHAR NOT NULL,
+  satellite_id INT NOT NULL
+);
+
+CREATE TABLE distances (
+  id INT AUTO_INCREMENT  PRIMARY KEY,
+  distance_length DOUBLE NOT NULL,
+  satellite_id INT NOT NULL
+);
+
+
+
+
+
