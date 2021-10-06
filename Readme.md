@@ -16,11 +16,11 @@ Generar 2 servicios para proveer un array de string, y unas distancias entre pun
 Los servicios deberán retornar el mensaje que ha sido fragmentado en los arrays, y deberán retornar la ubicación de un punto según la distancia a 3 puntos establecidos.
 
 ## Instalación y Compilación
-1- Tener instalado maven: https://maven.apache.org/download.cgi
-2- Clonar el repositorio.
-3- Navegar hacia la carpeta root del proyecto.
-4- Ejecutar ``` mvn package assembly:single```
-5- El servicio se creará y quedará a la escucha de peticiones.
+1. Tener instalado maven: https://maven.apache.org/download.cgi
+2. Clonar el repositorio.
+3. Navegar hacia la carpeta root del proyecto.
+4. Ejecutar ``` mvn package assembly:single```
+5. El servicio se creará y quedará a la escucha de peticiones.
 
 ## Contacto
 
